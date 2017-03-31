@@ -86,7 +86,7 @@ test server
 
 ## Setup Database
 ```
-npm install --save sequalize
+npm install --save sequelize
 npm install --save tedious // mysql driver
 npm install -g mysql // if receive error
 
@@ -95,7 +95,7 @@ create database folder and mysql.js
   touch database/mysql.js
 
 add connection  
-  import Sequalize from 'sequalize';
+  import Sequelize from 'sequelize';
 
   const Conn = new Sequalize(
     'graphql',
@@ -364,7 +364,7 @@ update APP Route
 
 Run It
   npm start
-  http://localhost:3000
+  http://localhost:3000/graphql
 ```
 
 ## Questions
