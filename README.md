@@ -97,7 +97,7 @@ create database folder and mysql.js
 add connection  
   import Sequelize from 'sequelize';
 
-  const Conn = new Sequalize(
+  const Conn = new Sequelize(
     'graphql',
     'root',
     '',
